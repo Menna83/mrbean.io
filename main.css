@@ -1,0 +1,251 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: cursive;
+    background: linear-gradient(45deg,rgb(248, 105, 105),rgb(230, 230, 237));
+}
+#home {
+    background-image: url(./images/back3.jfif);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: 100% 100%;
+    position: relative;
+}
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 90%;
+    background-color: rgb(236, 236, 239);
+    color: rgb(248, 105, 105);
+    text-align: center;
+
+}
+
+.nav-1 {
+    position: absolute;
+    top: 35%;
+    left: 20%;
+
+}
+
+ul {
+    list-style: none;
+
+}
+
+li {
+    float: left;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.clear {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(248, 105, 105);
+}
+a:hover{
+color:black;
+}
+.caption{ position: absolute;
+    top: 35%;
+    left: 5%;
+    
+    }
+    h1{
+        text-align: center;
+        color:whitesmoke;
+         font-size: 90px;
+        font-weight: bolder;
+    }
+
+
+#mrbean-animation{
+    position: relative;
+    padding: 50px;
+    background-color: whitesmoke;
+    padding-bottom: 10;
+}
+.animation{
+    position: relative;
+}
+.bean-animation1{
+    float: right;
+    width: 50%;
+    
+}
+.bean-animation1{
+    text-align: center;
+    color: rgb(248, 105, 105);
+    position: absolute;
+    top: 20%;
+    right: 0;
+    font-size: large;
+
+}
+    .bean-animation{
+        padding-bottom: 5%;
+        background-repeat: no-repeat;
+        height: 100vh;
+        background-size: 100% 100%;
+        position: relative;
+        width: 500px;
+        height: 400px;
+        animation-name: bean;
+        animation-duration: 6s;
+        box-shadow: 5px 10px #645050;
+        transition-duration: 1s;
+        animation-fill-mode: backwards;
+        animation-iteration-count: infinite;
+    }
+    @keyframes bean{
+        0%{background-image: url(./images/one.jfif);}
+        20%{background-image: url(./images/two.jfif);}
+        40%{background-image: url(./images/three.jfif);}
+        60%{background-image: url(./images/four.jfif);}
+        80%{background-image: url(./images/five.jfif);}
+        100%{background-image: url(./images/six.jfif);}
+    }
+    #rowan-atkinson{
+        text-align: center;
+        padding: 5%;
+       margin: auto;
+       position: relative;
+     color: aliceblue;
+    }
+    img{
+        position: absolute;
+        top: 13%;
+        left: 13%;
+        z-index: 1; 
+    }
+    .rowanimg{
+       float: left;
+       padding-bottom: 5%;
+    }
+    .rowimg{
+        width: 330px;
+        height: 330px;
+        background-color: rgba(232, 219, 219, 0.784);
+        position: relative;
+        text-align: center;
+        
+    }
+    .rowancap{
+      width: 65%;
+      float: right;
+      padding-top: 2%1;
+    }
+
+    @media (min-width: 320px) and (max-width: 480px) {
+        #home {
+            background-image: url(./images/back3.jfif);
+            background-repeat: no-repeat;
+            height: 100vh;
+            background-size:100% 100%;
+            position: relative;
+        }
+        .navbar {
+            width: 100%;
+            position: fixed;
+            top: 0;
+            bottom: 90%;
+            background-color: rgb(236, 236, 239);
+            color: rgb(248, 105, 105);
+            text-align: center;
+        font-size: 5px;
+        }
+        h1{
+            text-align: center;
+            color:whitesmoke;
+             font-size: 20px;
+            font-weight: bolder;
+        }
+        .bean-animation1{
+            float: right;
+            width: 10%;
+        }  
+        .bean-animation{
+            padding-bottom: 5%;
+            background-repeat: no-repeat;
+            height: 100vh;
+            background-size: 100% 100%;
+            position: relative;
+            width: 90px;
+            height: 80px;
+            animation-name: bean;
+            animation-duration: 6s;
+            box-shadow: 5px 10px #645050;
+            transition-duration: 1s;
+            animation-fill-mode: backwards;
+            animation-iteration-count: infinite;
+        } 
+        .bean-animation1{
+            text-align: center;
+            color: rgb(248, 105, 105);
+            position: absolute;
+            top: 20%;
+            right: 0;
+            font-size: 5PX;
+        width:50PX ;
+        }   
+        #rowan-atkinson{
+            text-align: center;
+            padding: 5%;
+           margin: auto;
+           position: relative;
+         color: aliceblue;
+        }
+        img{
+            position: absolute;
+            top: 13%;
+            left: 13%;
+            z-index: 1; 
+        }
+        .rowanimg{
+           float: left;
+           padding-bottom: 5%;
+        }
+        .rowimg{
+            width: 33px;
+            height: 33px;
+            background-color: rgba(232, 219, 219, 0.784);
+            position: relative;
+            text-align: center;
+            
+        }
+        .rowancap{
+          width: 65%;
+          float: right;
+          padding-top: 2%1;
+          font-size: 5px;
+        }
+        img{
+           width: 30px;
+           height: 30px;
+        }
+        li {
+            float: left;
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+        .nav-1 {
+            position: absolute;
+            top: 35%;
+            right: 23%;
+        
+        }
+        .caption{ position: absolute;
+            top: 45%;
+            left: 5%;
+            
+            }
+      }
